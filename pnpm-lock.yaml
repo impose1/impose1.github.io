@@ -147,6 +147,12 @@ importers:
       '@biomejs/biome':
         specifier: 2.2.0
         version: 2.2.0
+      '@iconify-json/mdi':
+        specifier: ^1.2.3
+        version: 1.2.3
+      '@iconify-json/simple-icons':
+        specifier: ^1.2.49
+        version: 1.2.49
       '@rollup/plugin-yaml':
         specifier: ^4.1.2
         version: 4.1.2(rollup@2.79.2)
@@ -1099,6 +1105,12 @@ packages:
 
   '@iconify-json/material-symbols@1.2.33':
     resolution: {integrity: sha512-Bs0X1+/vpJydW63olrGh60zkR8/Y70sI14AIWaP7Z6YQXukzWANH4q3I0sIPklbIn1oL6uwLvh0zQyd6Vh79LQ==}
+
+  '@iconify-json/mdi@1.2.3':
+    resolution: {integrity: sha512-O3cLwbDOK7NNDf2ihaQOH5F9JglnulNDFV7WprU2dSoZu3h3cWH//h74uQAB87brHmvFVxIOkuBX2sZSzYhScg==}
+
+  '@iconify-json/simple-icons@1.2.49':
+    resolution: {integrity: sha512-nRLwrHzz+cTAQYBNQrcr4eWOmQIcHObTj/QSi7nj0SFwVh5MvBsgx8OhoDC/R8iGklNmMpmoE/NKU0cPXMlOZw==}
 
   '@iconify/svelte@4.2.0':
     resolution: {integrity: sha512-fEl0T7SAPonK7xk6xUlRPDmFDZVDe2Z7ZstlqeDS/sS8ve2uyU+Qa8rTWbIqzZJlRvONkK5kVXiUf9nIc+6OOQ==}
@@ -6395,6 +6407,14 @@ snapshots:
       '@iconify/types': 2.0.0
 
   '@iconify-json/material-symbols@1.2.33':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/mdi@1.2.3':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/simple-icons@1.2.49':
     dependencies:
       '@iconify/types': 2.0.0
 
