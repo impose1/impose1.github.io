@@ -68,7 +68,7 @@ export const profileConfig: ProfileConfig = {
 			name: "WeChat",
 			icon: "ant-design:wechat-filled",
 			url: "https://impose1.github.io",
-		},
+		}
 		
 	],
 };
