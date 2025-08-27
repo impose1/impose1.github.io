@@ -9,7 +9,7 @@ import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
 	title: "NoHacker",
-	subtitle: "-",
+	subtitle: "-菜鸡的救赎",
 	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
 		hue: 250, // Default hue for the theme color, from 0 to 360. e.g. red: 0, teal: 200, cyan: 250, pink: 345
@@ -20,9 +20,9 @@ export const siteConfig: SiteConfig = {
 		src: "assets/images/demo-banner.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
-			enable: false, // Display the credit text of the banner image
-			text: "", // Credit text to be displayed
-			url: "", // (Optional) URL link to the original artwork or artist's page
+			enable: true, // Display the credit text of the banner image
+			text: "123", // Credit text to be displayed
+			url: "http://baidu.com", // (Optional) URL link to the original artwork or artist's page
 		},
 	},
 	toc: {
@@ -30,12 +30,10 @@ export const siteConfig: SiteConfig = {
 		depth: 2, // Maximum heading depth to show in the table, from 1 to 3
 	},
 	favicon: [
-		// Leave this array empty to use the default favicon
-		// {
-		//   src: '/favicon/icon.png',    // Path of the favicon, relative to the /public directory
-		//   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
-		//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
-		// }
+		
+		{
+		   src: 'favicon/favicon.ico',    // Path of the favicon, relative to the /public directory     
+		}
 	],
 };
 
@@ -57,12 +55,12 @@ export const profileConfig: ProfileConfig = {
 			icon: "mdi:qqchat", // Visit https://icones.js.org/ for icon codes
 			// You will need to install the corresponding icon set if it's not already included
 			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "https://impose1.github.io",
+			url: "tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=1223852820",
 		},
 		{
 			name: "WeChat",
 			icon: "ant-design:wechat-filled",
-			url: "https://impose1.github.io",
+			url: "weixin://dl/chat?username=w1223852820",
 		}
 		
 	],
