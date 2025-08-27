@@ -32,7 +32,7 @@ export const siteConfig: SiteConfig = {
 	favicon: [
 		
 		{
-		   src: 'favicon/favicon.ico',    // Path of the favicon, relative to the /public directory     
+		   src: 'favicon/cropped-1694164950909.jpg',    // Path of the favicon, relative to the /public directory     
 		}
 	],
 };
