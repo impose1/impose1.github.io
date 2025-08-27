@@ -1,7 +1,7 @@
 ---
 title: Previous-HTB靶机
 published: 2025-08-27
-description: '信息收集-打点-提权'
+description: '2025-08推出的新靶机，从信息收集-打点-root权限全过程'
 image: '{BA7EC344-E507-4FF4-8F48-A03A1D1ECAE4}.png'
 tags: ['HTB','Linux','Middle']
 category: '靶机'
